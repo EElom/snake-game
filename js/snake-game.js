@@ -1,6 +1,6 @@
 
 const boardBorder = 'green';
-const boardBackground = "green";
+const boardBackground = "white";
 const snakeCol = 'green';
 const snakeBorder = 'green' ;
 
@@ -53,9 +53,9 @@ function drawSnakePart(snakePart) {
     snakeboard_ctx.strokestyle = snakeBorder;
     // Draw a "filled" rectangle to represent the snake part at the coordinates
     // the part is located
-    snakeboard_ctx.fillRect(snakePart.x, snakePart.y, 10, 10);
+    snakeboard_ctx.fillRect(snakePart.x, snakePart.y, 20, 20);
     // Draw a border around the snake part
-    snakeboard_ctx.strokeRect(snakePart.x, snakePart.y, 10, 10);
+    snakeboard_ctx.strokeRect(snakePart.x, snakePart.y, 20, 20);
   }
 
 
