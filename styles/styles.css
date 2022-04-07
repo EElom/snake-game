@@ -16,9 +16,16 @@ html {
   }
 
 #score {
-    text-align: left;
-    font-size: 100px;
+    text-align:inherit;
+    font-size: 30px;
 }
+#bestScore {
+    text-align:inherit;
+    font-size: 30px;
+    color: brown;
+}
+
+
 
 header {
     display: flex;
