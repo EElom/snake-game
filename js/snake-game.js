@@ -162,11 +162,10 @@ function genFood() {
 
     snake.forEach(function eatenFood(part){
         const eatenFood = part.x === foodX && part.y === foodY;
-        if(hasEaten) genFood();
+        if(eatenFood) genFood();
     });
 
 }
-
 
 
 function moveSnake() {
